@@ -1,5 +1,5 @@
 class Project
-  #has many backers
+  #has many backers :backers
   # attr_accessor
   attr_reader :title, :backers
 
